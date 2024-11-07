@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.referral-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.referral-link input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.referral-link button {
+    width: 15%;
+    padding: 10px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.referral-link button:hover {
+    background-color: #005f8d;
+}
+.social-share {
+    text-align: center;
+    margin: 20px 0;
+}
+.social-share button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0088cc;
+    color: #fff;
+}
+.social-share button:hover {
+    background-color: #005f8d;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+.menu-item {
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+}
+.menu-item img {
+    width: 30px;
+    height: 30px;
+}
+.menu-item span {
+    display: block;
+    margin-top: 5px;
+    color: #333;
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('imagenes/fondos/fondo.jpeg'); /* Ruta de la imagen proporcionada */
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espacio entre el canvas y el botón */
+    position: relative;
+}
+
+#wheelCanvas {
+    border-radius: 50%;
+}
+
+#pointer {
+    font-size: 24px;
+    color: red;
+    position: absolute;
+    top: -30px;
+}
+
+#spinButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#spinButton:hover {
+    background-color: #0056b3;
+}
+
+#totalWon, #nextSpin {
+    font-size: 18px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo negro con opacidad */
+    padding: 10px 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.menu-item img {
+    width: 30px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 30px;
+}
+
+.menu-item span {
+    margin-top: 5px;
+    font-size: 12px;
+}
